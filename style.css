@@ -106,6 +106,27 @@ body {
   width: 100%;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 210px;
+}
+
+.footer_logo {
+  width: 159px;
+  height: 72px;
+}
+
+.footer_text {
+  color: white;
+  text-align: center;
+  font-family: Hind Siliguri;
+  font-size: 36px;
+  font-weight: 700;
+}
+
 @media (max-width: 571px) {
   .header {
     padding-top: 14px;
@@ -166,5 +187,14 @@ body {
   .footer_img {
     margin-top: 0px;
     width: 100%;
+  }
+
+  .footer {
+    margin-top: 60px;
+  }
+
+  .footer_logo {
+    width: 106px;
+    height: 48px;
   }
 }
